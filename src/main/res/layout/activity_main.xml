@@ -139,7 +139,8 @@
         android:text=" Modifier"
         android:id="@+id/textView"
         android:layout_below="@+id/plusOne"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
 
     <TextView
         android:layout_width="wrap_content"
