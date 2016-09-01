@@ -152,8 +152,6 @@
         android:textSize="25dp"
         android:textColor="#010101"
         android:layout_below="@+id/textView"
-        android:layout_alignParentEnd="false"
-        android:layout_alignParentStart="false"
         android:layout_centerHorizontal="true" />
 
     <TextView
