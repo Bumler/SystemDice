@@ -249,31 +249,38 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:id="@+id/CritMods"
-        android:paddingBottom="10dp">
+        android:paddingBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0px"
             android:layout_height="wrap_content"
-            android:text="Explode"
+            android:text="MINI"
             android:id="@+id/Explode"
-            android:layout_weight="1"
-            android:layout_marginLeft="40dp" />
+            android:layout_weight="1" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0px"
             android:layout_height="wrap_content"
-            android:text="Half Crit"
-            android:id="@+id/hCrit"
-            android:layout_weight="1"
-             />
+            android:text="DOUBLE"
+            android:id="@+id/Double"
+            android:layout_weight="1" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:text="Half"
+            android:id="@+id/hCrit"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="0px"
             android:layout_height="wrap_content"
             android:text="Crit"
             android:id="@+id/Crit"
-            android:layout_weight="1"
-            android:layout_marginRight="40dp" />
+            android:layout_weight="1" />
 
     </LinearLayout>
 
