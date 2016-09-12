@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.example.isstech.systemdice"
+        applicationId "com.bumler.henry.pkg_systemDice"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1

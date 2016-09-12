@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pkg_systemdice" >
+    package="com.bumler.henry.pkg_systemDice" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.isstech.pkg_systemDice.MainActivity"
+            android:name="com.bumler.henry.pkg_systemDice.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +18,7 @@
         </activity>
 
         <activity
-            android:name="com.example.isstech.pkg_systemDice.PositionActivity"
+            android:name="com.bumler.henry.pkg_systemDice.PositionActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +28,7 @@
         </activity>
 
         <activity
-            android:name="com.example.isstech.pkg_systemDice.AttackActivity"
+            android:name="com.bumler.henry.pkg_systemDice.AttackActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,7 +38,7 @@
         </activity>
 
         <activity
-            android:name="com.example.isstech.pkg_systemDice.DefenseActivity"
+            android:name="com.bumler.henry.pkg_systemDice.DefenseActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -48,7 +48,7 @@
         </activity>
 
         <activity
-            android:name="com.example.isstech.pkg_systemDice.MiscActivity"
+            android:name="com.bumler.henry.pkg_systemDice.MiscActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
